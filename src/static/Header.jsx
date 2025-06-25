@@ -2,10 +2,11 @@ import React from "react";
 import menu from "../assets/images/menu.png";
 import success from "../assets/images/success.png";
 import user from "../assets/images/user-avatar.png";
+import PiggyBtn from "../components/reusable/PiggyBtn";
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between px-8 h-14 bg-amber-200 fixed w-screen">
+    <div className="flex items-center justify-between px-8 h-14 bg-amber-200 fixed w-screen z-50">
       <section className="flex justify-between w-4/12">
         <img src={menu} alt="" className="w-8 h-auto hidden" />
         <img src="" alt="logo" />
